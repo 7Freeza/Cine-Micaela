@@ -1,0 +1,101 @@
+body {
+    
+    background-color: #141414;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    gap: 0px;
+    padding: 0px;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 45px;
+    flex-wrap: wrap;
+}
+
+header {
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: #e50914;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: #e50914;
+    transition: 0.3s ease;
+}    
+.carta {
+    width: 450px;
+    background-color:#1f1f1f;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.carta:hover {
+    transform: scale(1.03) translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    background: linear-gradient(135deg, #1f1f1f, #2a2a2a);
+}    
+
+
+.carta img {
+    width: 100%;
+    height: 600px;
+    object-position: top;
+    object-fit: cover;
+
+}
+
+.carta h3 {
+    color: white;
+    font-size: 18px;
+    margin: 0 16px 16px 16px;
+    line-height: 1.5;
+}
+
+.carta p {
+    color: #aaaaaa;
+    font-size: 14px;
+    margin: 0 16px 16px 16px;
+    line-height: 1.5;
+}
+
+.carta a {
+    display: block;
+    margin: 0 16px 16px 16px;
+    padding: 10px;
+    background-color: #e50914;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
